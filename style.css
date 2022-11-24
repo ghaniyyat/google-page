@@ -1,0 +1,124 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            overflow-x: hidden;
+            background-color: rgb(30, 31, 30);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: #ccc;
+        }
+        
+        .navbar {
+            margin: auto 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px;
+        }
+        
+        nav ul {
+            display: flex;
+        }
+        
+        nav ul li {
+            text-transform: uppercase;
+            margin-right: 30px;
+        }
+        
+        ul li {
+            list-style-type: none;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #ccc;
+        }
+        
+        a:hover {
+            color: rgb(11, 28, 160);
+        }
+        
+        .letter {
+            background-color: rgb(87, 91, 212);
+            padding: 6px 10px;
+            border-radius: 50%;
+        }
+        
+        main {
+            margin: 120px auto;
+            width: 80%;
+            height: 1;
+        }
+        
+        .space {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+        }
+        
+        .big {
+            font-size: 64px;
+            color: #eee;
+            padding-bottom: 20px;
+        }
+        
+        input {
+            background-color: rgb(53, 52, 52);
+            padding: 12px 80px;
+            width: 50%;
+            border: 1px solid #bbb;
+            border-radius: 50px;
+        }
+        
+        input::placeholder {
+            color: #bbb;
+        }
+        
+        .language {
+            display: flex;
+            align-items: center;
+            padding: 15px 0;
+        }
+        
+        h3 {
+            font-weight: 400;
+        }
+        
+        .language ul {
+            display: flex;
+        }
+        
+        .language ul li {
+            margin: 0 10px;
+        }
+        
+        .language a {
+            text-decoration: none;
+            color: rgb(11, 28, 160);
+        }
+        /* footer styling */
+        
+        footer {
+            margin-top: 180px;
+        }
+        
+        h4 {
+            font-size: 18px;
+            margin-left: 65px;
+            padding-bottom: 5px;
+        }
+        
+        hr {
+            height: 2px;
+            background-color: rgb(53, 52, 52);
+            border: none;
+        }
+        
+        footer p {
+            font-size: 16px;
+            text-align: center;
+            padding-top: 15px;
+        }
